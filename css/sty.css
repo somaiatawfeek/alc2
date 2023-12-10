@@ -1,0 +1,776 @@
+/**    link fonts    **/
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+    font-family: 'cairo', 'Poppins', sans-serif;
+
+
+    background: #fff;
+
+
+    width: 100%;
+}
+
+/* #272A3D */
+.container-fluid {
+    width: 100%;
+
+}
+
+/******* start header ********/
+.header.collapse {
+    direction: rtl;
+
+
+
+}
+
+tr {
+    text-align: right;
+    direction: rtl;
+
+}
+
+.tr1 td {
+    background-color: #BB8357;
+    color: white;
+
+
+}
+
+
+.tr4 td {
+    background-color: #BB8357;
+    color: white;
+
+
+}
+
+
+.tr1 {
+    margin: 10%;
+
+}
+
+
+.tr2 td {
+    background-color: #28293C;
+    color: white;
+
+
+}
+
+
+.tr3 td {
+    background-color: #28293C;
+    color: white;
+
+
+}
+
+
+.offcanvas-body {
+    color: #BB8357;
+    font-weight: bold;
+    font-family: 'cairo', 'Poppins', sans-serif;
+
+}
+
+/******* end header ********/
+
+
+
+
+/******* start about us ********/
+
+
+.background-div {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    height: 80vh;
+    left: 0px;
+    right: 0px;
+}
+
+table {
+    padding: 10%;
+}
+
+.image-div {
+    position: relative;
+    width: 100%;
+    height: 0;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 75%;
+}
+
+.background-divv {
+
+    background-size: contain;
+    height: 50vh;
+    left: 0px;
+    right: 0px;
+}
+
+.background-divv .abbo {
+    color: #f0f0f0;
+    font-size: 55px;
+    margin-top: 290px;
+    margin-left: 150px;
+    /* margin-bottom: 5px; */
+    /* border-bottom: 2px solid white; */
+
+
+
+}
+
+
+
+.centered-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.centered-textt {
+    position: absolute;
+
+    width: 80%;
+
+    text-align: center;
+    color: white;
+
+    background-color: #BB8357;
+    bottom: -200px;
+    left: 10%;
+    right: 10%;
+
+}
+
+.cc {
+    margin-top: 100px;
+
+}
+
+.company-info {
+
+    position: absolute;
+
+    bottom: 10%;
+    left: 3%;
+    ;
+    width: 80%;
+    background-color: #BB8357;
+    color: white;
+    bottom: 0;
+    padding: 10px;
+}
+
+
+.company-infoo {
+
+    position: absolute;
+
+
+    left: 20%;
+    right: 20%;
+    width: 80%;
+    background-color: #BB8357;
+    color: white;
+    bottom: -200px;
+    padding: 10px;
+    top: 200px;
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+    /* Set the desired height of the container */
+}
+
+.content {
+    font-size: 100%;
+    /* Reset font size to inherit from parent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_uus {
+    line-height: 1.9;
+}
+
+.company-info .do {
+    padding-top: 20px;
+}
+
+.company-info a {
+    direction: rtl;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    border-bottom: 2px solid white;
+
+}
+
+
+
+/******* end aboutus *******
+
+
+/******* start services ********/
+
+
+.serv {
+    /* background-image: url("../images/2.jpg");
+    background-size: cover;
+    background-position: center; */
+    background-color: #877768;
+
+
+}
+
+.text-right {
+    color: black;
+}
+
+.serv p {
+    direction: rtl;
+    color: #fff;
+    text-decoration: none;
+
+
+    padding: 10%;
+    font-size: 15px;
+}
+
+.serv2 {
+    height: 60lvh;
+
+}
+
+.text-right {
+    color: #fff;
+}
+
+.serv2 p {
+    color: #f0f0f0;
+
+    line-height: 1.5;
+
+}
+
+
+
+.serv2 a {
+    direction: rtl;
+    color: #877768;
+    text-decoration: none;
+    border-bottom: 4px solid #877768;
+
+}
+
+
+/* start our_teams */
+
+.our_teams {
+    /* background-image: url("../images/2.jpg");
+    background-size: cover;
+    background-position: center; */
+    background-color: #3a2c1f;
+    opacity: 0.5;
+}
+
+.row .serv4 {
+    background-color: #887668;
+}
+
+.our_teams p {
+    direction: rtl;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.our_teams .teams {
+    direction: rtl;
+
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.our_teams .team a {
+    direction: rtl;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-size: 45px;
+    border-bottom: 4px solid #fff;
+
+}
+
+/* start our_partners */
+
+.our_partners {
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-color: #877768; */
+
+    height: 550px;
+}
+
+.our_partners p {
+    direction: rtl;
+    color: #877768;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.our_partners .partner {
+    direction: rtl;
+    color: #877768;
+
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+.our_partners .partner a {
+    direction: rtl;
+    color: #877768;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-size: 45px;
+    border-bottom: 4px solid #877768;
+
+}
+
+
+
+
+
+
+/* start our_expert */
+
+
+.our_expert {
+
+    background-color: #fff;
+
+    height: 550px;
+}
+
+.our_expert p {
+    direction: rtl;
+    color: #905116;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.our_expert .experts {
+    direction: rtl;
+    color: #877768;
+
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.our_expert .expert a {
+    direction: rtl;
+    color: #877768;
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-size: 45px;
+    border-bottom: 4px solid #877768;
+
+}
+
+
+
+/******* end main ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******* start contact ********/
+
+
+
+@media (max-width: 768px) {
+    .content {
+        font-size: 10vw;
+        /* Set the desired font size using viewport width unit */
+    }
+
+    .form-control {
+        color: #d4b293;
+        width: 80%;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .company-info {
+
+        bottom: 0;
+    }
+
+    .centered-textt {
+        position: absolute;
+
+        width: 80%;
+
+        text-align: center;
+        color: white;
+
+        background-color: #BB8357;
+        bottom: -200px;
+
+        right: 10%;
+        font-size: 10px;
+        font-size: large;
+        bottom: -250px;
+
+    }
+
+    .about_uus {
+        font-size: 25px
+    }
+
+    .company-info p {
+        position: absolute;
+        direction: rtl;
+        margin-top: 300px;
+        text-align: right;
+
+        margin-top: 100px;
+
+
+    }
+
+
+    .company-infoo {
+
+        position: absolute;
+
+    }
+
+
+    .cc {
+        margin-top: 250px;
+
+    }
+
+
+    p,
+    td {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    h4 {
+        line-height: 40px
+    }
+}
+
+@media (min-width: 769px) {
+    .content {
+        font-size: 4vw;
+        /* Set a different font size for larger viewports */
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-control {
+        color: #d4b293;
+        width: 50%;
+    }
+
+    .company-infoo p {
+
+        position: absolute;
+        bottom: -200px;
+    }
+
+    .company-info p {
+        direction: rtl;
+
+        text-align: right;
+        padding: 10px;
+        margin: 0;
+        font-size: 5px;
+
+    }
+
+    .cc {
+        margin-top: -110px;
+        font-size: 15px;
+
+
+    }
+
+
+    .centered-textt {
+        position: absolute;
+
+        width: 80%;
+
+        text-align: center;
+        color: white;
+
+        background-color: #BB8357;
+        bottom: -100px;
+        left: 10%;
+        right: 10%;
+
+        bottom: -100px;
+        font-size: 15px
+    }
+
+    p,
+    td {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .container p {
+        line-height: 3vh
+    }
+
+    .cc {
+        margin-top: 200px;
+    }
+
+    .text-rvight {
+        line-height: 50px;
+        font-size: 20px
+    }
+
+    .card3 {
+        margin-top: 10%;
+        background: white;
+    }
+}
+
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin: 0;
+}
+
+td {
+    padding: 10px;
+}
+
+.card {
+    margin: 7%;
+    background-image: url('../images/13.jpg');
+
+    background-color: #080f1c;
+
+
+    background-size: cover;
+    min-height: 150px;
+    color: #997f6e;
+
+    border-radius: 10px;
+
+    opacity: 0.9;
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    z-index: -2;
+
+
+}
+
+.card-body {
+    background: #080f1c;
+    opacity: 0.9;
+}
+
+.card-text {
+    margin-top: 50px;
+    font-size: 15;
+    opacity: 1;
+
+}
+
+.card2 {
+    background: white;
+    color: #b09686;
+}
+
+.card2 a {
+    font-size: large;
+    text-decoration-line: overline;
+    padding: 5px;
+    color: #887668;
+}
+
+.card2 h2 a {
+    padding: 5px;
+}
+
+.form {
+    height: 70vh;
+    direction: rtl;
+    background-color: #ffffff;
+
+}
+
+.form input {
+    border: 1px solid #BB8357;
+    ;
+    color: #b09686;
+}
+
+form {
+
+    background: white;
+    padding: 10px;
+    padding-bottom: 10%;
+}
+
+.card2 .form {
+    background: white;
+}
+
+.form h2 {
+    color: black;
+    text-align: center;
+}
+
+.form .container {
+    margin-top: 20px;
+    background: white;
+}
+
+.fil {
+    background: #28293C url('../images/16.png');
+    background-size: cover;
+}
+
+.card2 .card-body {
+    background: #fff;
+}
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.demo-bg {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #BB8357;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #BB8357;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #BB8357;
+}
+
+input::-webkit-input-placeholder {
+    color: #BB8357;
+}
+
+input:-moz-placeholder {
+    color: #BB8357;
+}
+
+textarea {
+    border: 1px solid #BB8357;
+
+
+}
+
+input::placeholder {
+    color: #BB8357;
+    opacity: 1;
+}
+
+input:placeholder-shown {
+    border: 1px solid #BB8357;
+}
+
+.demo-content {
+    position: relative;
+}
+
+.footer-nav {
+    background-color: #28293C;
+    text-align: center;
+    display: table-footer-group;
+    padding: 10px;
+    color: white;
+}
+
+.card3 .card-body {
+    margin-top: 10%;
+    background: white;
+    background-color: white;
+}
+
+.card3 {
+    background: white;
+}
